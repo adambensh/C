@@ -1,0 +1,8 @@
+#include <stdio.h>
+void main(void) {
+    printf("%d. The first number is %d ",1,7);
+    printf("and the second number is %d\n",13);
+    printf("%d. The sum of the two numbers is: %d\n",2,7+13);
+    printf("%d. We can write: %d+%d=%d\n",3,7,13,7+13);
+    printf("%d. this is wrong! %d-%d=%d\n",4,7,13,7+13);
+}
